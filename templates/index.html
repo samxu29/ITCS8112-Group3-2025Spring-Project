@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<style>
+body {
+  background-image: url("/static/asl-getty-images.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: wheat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  color: black;
+}
+
+div {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+</style>
+
+<html>
+  <head>
+    <title>American Sign Language</title>
+  </head>
+  <body>
+    <div>
+      <h1>American Sign Language</h1>
+      <img src="{{ url_for('video_feed') }}" alt="error receiving video stream" width="50%" height="50%"/>
+    </div>
+  </body>
+</html>
