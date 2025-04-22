@@ -1,5 +1,5 @@
-EE-541 Final Project
-Name: Anusha Poorna, Haoyu Xie 
+CS8112 Final Project
+Name: sam Xu, Haoyu Xie 
 
 +-- Train_models.py                 # Train resnet, squeezenet, self defined models with learning rate equal to 0.02, 0.002, 0.0002
 +-- Test_models.py                  # Test models using Kaggle test data and self-created grey test data 
