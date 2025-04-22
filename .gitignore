@@ -1,5 +1,4 @@
-# Exclude EE-541-project directory
-EE-541-project/
+
 
 # Python
 __pycache__/
